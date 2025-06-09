@@ -90,13 +90,24 @@ html, html * {
 }
 
 .arrow {
-  width: 30px;
-  height: 30px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background: red;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  font-size: 10px !important;
+}
+
+.cardTitle {
+  font-size: 1.625rem !important;
+  letter-spacing: -2px !important;
+  font-weight: 600 !important;
+}
+
+.cardTitleSmall {
   font-size: 15px !important;
+  font-weight: 200 !important;
 }/*# sourceMappingURL=main.css.map */
