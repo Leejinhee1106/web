@@ -12,20 +12,15 @@ html, html * {
   background: white !important;
 }
 
-.slidedown > img {
-  content: "--";
-  margin-right: 10px;
-  color: red;
-}
-
 .slidedown {
   width: 20%;
-  padding: 18px;
+  padding: 18px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .slidedown .slide-down-image {
   width: 44px;
   padding-left: 18px;
-  border-left: 2px dashed red;
 }
 .slidedown .slide-down-text {
   font-size: 12px;
@@ -33,6 +28,19 @@ html, html * {
   font-weight: 600;
 }
 .slidedown .slide-down-text:hover {
-  color: red;
+  color: #e60012;
   cursor: pointer;
+}
+
+.slidedown > img::before {
+  content: "--";
+  margin-right: 10px;
+  color: #e60012;
+}
+
+.line {
+  border-left: 1px solid #e60012;
+  width: 2px;
+  height: 34px;
+  margin-top: 14px;
 }/*# sourceMappingURL=main.css.map */
