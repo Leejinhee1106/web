@@ -1,0 +1,38 @@
+html, html * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.h100 {
+  height: 100px !important;
+}
+
+.mainBg {
+  background: white !important;
+}
+
+.slidedown > img {
+  content: "--";
+  margin-right: 10px;
+  color: red;
+}
+
+.slidedown {
+  width: 20%;
+  padding: 18px;
+}
+.slidedown .slide-down-image {
+  width: 44px;
+  padding-left: 18px;
+  border-left: 2px dashed red;
+}
+.slidedown .slide-down-text {
+  font-size: 12px;
+  text-indent: 10px;
+  font-weight: 600;
+}
+.slidedown .slide-down-text:hover {
+  color: red;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.slidedown > img{
+    content: "--";
+    margin-right: 10px;
+    color: red;
+}
+
+.slidedown{
+    width: 20%; padding: 18px;
+    .slide-down-image{
+        width: 44px; 
+        padding-left: 18px;
+        border-left: 2px dashed red;
+    }
+
+    .slide-down-text{font-size: 12px; text-indent: 10px; font-weight: 600;}
+    .slide-down-text:hover{color: red; cursor: pointer;}
+}
